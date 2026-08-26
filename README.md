@@ -1,7 +1,8 @@
 # DATA-PREPROCESSING
 # AIM
 To perform data preprocessing on a dataset using Python and Scikit-learn by handling missing values, encoding categorical data, splitting the dataset, and applying feature scaling. 
-#THEORY
+
+## THEORY
 Data preprocessing is an important step in data analytics and machine learning. It involves converting raw data into a clean, organized, and suitable format before applying machine learning algorithms. Real-world datasets may contain missing values, categorical data, and numerical features with different ranges. These issues can affect the performance and accuracy of machine learning models.
 
 In this experiment, Python and the Scikit-learn library are used to perform the major steps of data preprocessing. Scikit-learn provides several useful functions and classes for preparing datasets efficiently.
@@ -16,7 +17,7 @@ Finally, feature scaling is applied to numerical features when necessary. Featur
 
 Thus, data preprocessing helps transform raw data into a suitable form for developing accurate and reliable machine learning models.
 
-#WORKING PRINCIPLE
+## WORKING PRINCIPLE
 The given dataset is first loaded into Python using suitable Scikit-learn and Python functions. The dataset is examined to identify missing values and different types of features.
 
 Missing values are then handled using appropriate preprocessing techniques. Depending on the dataset, missing numerical values can be replaced using statistical values such as the mean or median, while categorical missing values can be replaced using the most frequent value.
